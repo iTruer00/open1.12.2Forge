@@ -1,0 +1,21 @@
+[19:41:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraft.launchwrapper.VanillaTweaker
+[19:41:55] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraft.launchwrapper.VanillaTweaker
+[19:41:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraft.launchwrapper.VanillaTweaker
+[19:41:55] [main/ERROR] [LaunchWrapper]: Unable to launch
+java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_333]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_333]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_333]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_333]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassVisitor.<init>(ClassVisitor.java:79) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassVisitor.<init>(ClassVisitor.java:64) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.tree.ClassNode.<init>(ClassNode.java:179) ~[asm-tree-9.4.jar:9.4]
+	at org.objectweb.asm.tree.ClassNode.<init>(ClassNode.java:166) ~[asm-tree-9.4.jar:9.4]
+	at net.minecraft.launchwrapper.injector.VanillaTweakInjector.transform(VanillaTweakInjector.java:36) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	... 6 more

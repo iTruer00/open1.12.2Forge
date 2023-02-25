@@ -1,0 +1,4 @@
+[20:24:36] [main/INFO] [LaunchWrapper]: Loading tweak class name mixinManager.Tweaker
+[20:24:36] [main/INFO] [LaunchWrapper]: Using primary tweak class name mixinManager.Tweaker
+[20:24:36] [main/INFO] [LaunchWrapper]: Calling tweak class mixinManager.Tweaker
+[20:24:36] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/F:/1.12.2ModGradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar Service=LaunchWrapper Env=UNKNOWN

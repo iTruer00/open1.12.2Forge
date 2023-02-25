@@ -1,0 +1,16 @@
+[
+{
+  "modid": "itrue",
+  "name": "RPGPVP",
+  "description": "sb.",
+  "version": "${1.0}",
+  "mcversion": "${1.12.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ExampleDude"],
+  "credits": "66666666",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
